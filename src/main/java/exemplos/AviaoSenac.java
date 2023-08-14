@@ -1,13 +1,24 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package exemplos;
 
-/**
- *
- * @author fellipe.nbizarria
- */
 public class AviaoSenac {
+    
+    String cor;
+    String marca = "A101";
+    int velocidade;
+    double altitude;
+    boolean ligado = false;
+    
+    //Ações = metodos
+    
+    public boolean ligar(){
+        this.ligado = true;
+        return ligado;
+    }
+    
+    public int acelerar(int novaVelocidade){
+        this.velocidade += novaVelocidade;
+        return velocidade;
+    }
     
 }
