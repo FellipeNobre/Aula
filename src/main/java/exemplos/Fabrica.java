@@ -13,7 +13,8 @@ public class Fabrica {
         
         System.out.println(novoAviao.getCor() );
         
-       novoAviao.acelerar(0);
+       novoAviao.acelerar();
+       novoAviao.acelerar();
        System.out.println("Aviao - novoAviao - velocidade:" + novoAviao.getVelocidade());
     }
 }

@@ -44,6 +44,10 @@ public class AviaoSenac {
         return ligado;
     }
     
+     public int acelerar(){
+        this.velocidade += 50;
+        return velocidade;
+    }
     public int acelerar(int novaVelocidade){
         this.velocidade += novaVelocidade;
         return velocidade;
